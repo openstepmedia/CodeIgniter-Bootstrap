@@ -5,3 +5,5 @@ application/logs
 
 /nbproject/private/
 /nbproject/
+application/models/Hydrators/*.php
+
