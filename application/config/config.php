@@ -42,7 +42,7 @@ $config['cdn_url']	= '';
 | variable so that it is blank.
 |
 */
-$config['index_page'] = 'index.php';
+$config['index_page'] = '';
 
 /*
 |--------------------------------------------------------------------------
@@ -144,7 +144,6 @@ $config['subclass_prefix'] = 'MY_';
 */
 $config['permitted_uri_chars'] = 'a-z 0-9~%.:_\-';
 
-
 /*
 |--------------------------------------------------------------------------
 | Enable Query Strings
@@ -173,7 +172,7 @@ $config['permitted_uri_chars'] = 'a-z 0-9~%.:_\-';
 $config['allow_get_array']		= TRUE;
 $config['enable_query_strings'] = FALSE;
 $config['controller_trigger']	= 'c';
-$config['function_trigger']		= 'm';
+$config['function_trigger']	= 'm';
 $config['directory_trigger']	= 'd'; // experimental not currently in use
 
 /*
@@ -196,7 +195,7 @@ $config['directory_trigger']	= 'd'; // experimental not currently in use
 | your log files will fill up very fast.
 |
 */
-$config['log_threshold'] = 0;
+$config['log_threshold'] = 1;
 
 /*
 |--------------------------------------------------------------------------
@@ -240,7 +239,7 @@ $config['cache_path'] = '';
 | MUST set an encryption key.  See the user guide for info.
 |
 */
-$config['encryption_key'] = '';
+$config['encryption_key'] = 'test_encryption_key';
 
 /*
 |--------------------------------------------------------------------------
